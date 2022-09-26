@@ -36,10 +36,12 @@ p {
 
 #welcome {
     color: whitesmoke;
+    border: 5px solid whitesmoke;
 }
 
 #main-slogan{
     color: whitesmoke;
+    border: 5px solid whitesmoke;
 }
 
 #phototext {
