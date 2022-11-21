@@ -119,7 +119,7 @@ p {
 
 .central-part {
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto 200px;
     width: 100%;
     height: 100%;
 }
