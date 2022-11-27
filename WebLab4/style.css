@@ -1,0 +1,212 @@
+header {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+	background-color: white;
+	float
+}
+
+#logo {
+	height: 100%;
+}
+
+#menu_bar {
+	float: right;
+	right: 0;
+	height: 100%;
+}
+
+.caption{
+	color: #7D8CFC;
+	align-self: center;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+
+.caption_paragraph{
+	text-align: center;
+	margin-left: 30%;
+	font-size: medium;
+	width: 40%;
+}
+
+#background_line_container{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#background_line{
+	position: absolute;
+	top: 35%;
+	width: 100%;
+	height: 200px;
+	align-self: center;
+	background-color: orange;
+	z-index: 0;
+	overflow: hidden;
+
+}
+
+
+.general {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	background-color: #E6E9FF;
+	height: 95%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.content {
+	position: relative;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	z-index: 1;
+	width: 100%;
+	overflow: visible;
+}
+
+.cell {
+	vertical-align: top;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	justify-content: center;
+	text-align: center;
+	width: 20%;
+	border-radius: 20px;
+	margin-top: 0;
+	margin-bottom: 100px;
+	height: 95%;
+	z-index: 1;
+}
+
+.cell img{
+	vertical-align: top;
+	width: 95%;
+	align-self: center;
+	margin-top: 5px;
+}
+
+.cell h2{
+	color: #7D8CFC;
+	font-size: 30px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.cell p{
+	width: 95%;
+	align-self: center;
+	text-align: center;
+	margin-bottom: 0;
+}
+#first_cell {
+	margin-left: 15%;
+	margin-right: 2.5%;
+}
+
+#second_cell{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+#third_cell {
+	margin-left: 2.5%;
+	margin-right: 15%;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	vertical-align: top;
+	color: white;
+	font-weight: bold;
+	background-color: orange;
+	border-radius: 10px;
+	width: 80%;
+	height: 80%;
+	align-self: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+.button:hover{
+	transition: 300ms;
+	width: 100%;
+	height: 100%;
+	font-size: 25px;
+}
+
+.button_container{
+	align-self: center;
+	display: flex;
+	justify-content: center;
+	height: 100px;
+	width: 80%;
+	margin-top: 20px;
+}
+
+footer{
+	background-color: #323237;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	height: 100px;
+}
+
+footer p{
+	color: white;
+	width: 30%;
+	margin-left: 35%;
+	text-align: center;
+}
+
+@media screen and (max-width:900px)
+{
+	.content{
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.cell{
+		width: 80%;
+		align-self: center;
+	}
+
+	#first_cell{
+		margin: auto;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	#second_cell{
+		margin: auto;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	#third_cell{
+		margin: auto;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+}
+
