@@ -33,6 +33,7 @@ function Task3(){
 window.addEventListener('load', OnUpdate);
 
 function OnUpdate(){
+	alert('Changed');
 	if(document.cookie != '')
 	{
 	document.getElementById('task3').style.display = 'none';
