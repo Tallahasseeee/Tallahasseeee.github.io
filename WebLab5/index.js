@@ -38,7 +38,7 @@ function OnUpdate(){
 		'\n\nпісля натискання кнопки «ОК» відбудеться видалення даних із cookies'))
 	{
 	document.getElementById('task3').style.display = 'none';
-	document.cookie = '';
+	document.cookie = 'expires=Thu, 01 Jan 1970 00:00:00 GMT';
 	alert(document.cookie);
 	alert('Cookies видалено');
 	location.reload();
