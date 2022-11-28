@@ -30,6 +30,6 @@ function Task3(){
 	document.cookie = `res=${res};`;
 }
 
-window.addEventListener('load', OnUpdate);
+//window.addEventListener('load', OnUpdate);
 
 
