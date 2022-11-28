@@ -32,16 +32,4 @@ function Task3(){
 
 window.addEventListener('load', OnUpdate);
 
-function OnUpdate(){
-	alert('Changed');
-	if(document.cookie != '')
-	{
-	document.getElementById('task3').style.display = 'none';
-	alert('Cookies: ' + document.cookie + 
-		'\n\nпісля натискання кнопки «ОК» відбудеться видалення даних із cookies');
-	document.cookie = '';
-	alert('Cookies видалено');
-	location.reload();
-	}
 
-}
