@@ -38,7 +38,7 @@ function OnUpdate(){
 	document.getElementById('task3').style.display = 'none';
 	alert('Cookies: ' + document.cookie + 
 		'\n\nпісля натискання кнопки «ОК» відбудеться видалення даних із cookies');
-	//document.cookie = 'expires=Thu, 01 Jan 1970 00:00:00 GMT';
+	document.cookie = 'expires=Thu, 01 Jan 1970 00:00:00 GMT';
 	alert('Cookies видалено');
 	location.reload();
 	}
