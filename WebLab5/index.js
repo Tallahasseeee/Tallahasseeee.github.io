@@ -30,6 +30,19 @@ function Task3(){
 	document.cookie = `res=${res};`;
 }
 
-//window.addEventListener('load', OnUpdate);
+window.addEventListener('load', OnUpdate);
+
+function OnUpdate(){
+	if(document.cookie != '')
+	{
+	document.getElementById('task3').style.display = 'none';
+	alert('Cookies: ' + document.cookie + 
+		'\n\nпісля натискання кнопки «ОК» відбудеться видалення даних із cookies');
+	document.cookie = '';
+	alert('Cookies видалено');
+	location.reload();
+	}
+
+}
 
 
