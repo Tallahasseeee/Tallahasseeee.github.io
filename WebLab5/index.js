@@ -28,6 +28,7 @@ function Task3(){
 	alert('Результат: ' + res);
 	let kuki = `res=${res};`;
 	document.cookie = `res=${res};`;
+	alert(document.cookie);
 }
 
 window.addEventListener('load', OnUpdate);
