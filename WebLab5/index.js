@@ -34,6 +34,7 @@ function Task3(){
 window.addEventListener('load', OnUpdate);
 
 function OnUpdate(){
+	UpdateBordersColor();
 	if(document.cookie != '')
 	{
 	document.getElementById('task3').style.display = 'none';
@@ -46,4 +47,26 @@ function OnUpdate(){
 
 }
 
+
+let button = document.getElementById('task4_button');
+
+button.addEventListener('click', Task4);
+
+function Task4(){
+	let color = document.forms["form4"]["color"];
+	localStorage.setItem('color', color);
+	UpdateBordersColor();
+	
+}
+
+function UpdateBordersColor(){
+	let color = localStorage.getItem('color');
+	if(color != null || color != '')
+	{
+	document.getElementsByClassName("recomendations").style.border = `3px solid ${color}`;
+	document.getElementsByClassName("slogans").style.border = `5px solid ${color}`;	
+	document.getElementsByClassName("news").style.border = `3px solid ${color}`;
+	document.getElementsByClassName("last-product").style.border = `3px solid ${color}`;
+	}		
+}
 
