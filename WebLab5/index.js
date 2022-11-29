@@ -63,10 +63,10 @@ function UpdateBordersColor(){
 	let color = localStorage.getItem('color');
 	if(color != null || color != '')
 	{
-	document.getElementsByClassName("recomendations").style.border = `3px solid ${color}`;
-	document.getElementsByClassName("slogans").style.border = `5px solid ${color}`;	
-	document.getElementsByClassName("news").style.border = `3px solid ${color}`;
-	document.getElementsByClassName("last-product").style.border = `3px solid ${color}`;
+	document.getElementsByClassName("recomendations")[0].style.border = `3px solid ${color}`;
+	document.getElementsByClassName("slogans")[0].style.border = `5px solid ${color}`;	
+	document.getElementsByClassName("news")[0].style.border = `3px solid ${color}`;
+	document.getElementsByClassName("last-product")[0].style.border = `3px solid ${color}`;
 	}		
 }
 
