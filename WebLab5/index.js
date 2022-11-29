@@ -34,12 +34,12 @@ function Task3(){
 window.addEventListener('load', OnUpdate);
 
 function OnUpdate(){
-	if(confirm('Cookies: ' + document.cookie + 
-		'\n\nпісля натискання кнопки «ОК» відбудеться видалення даних із cookies'))
+	if(document.cookie != '')
 	{
 	document.getElementById('task3').style.display = 'none';
+	alert('Cookies: ' + document.cookie + 
+		'\n\nпісля натискання кнопки «ОК» відбудеться видалення даних із cookies');
 	document.cookie = 'res=;expires=Thu, 01 Jan 1970 00:00:00 GMT';
-	alert(document.cookie);
 	alert('Cookies видалено');
 	location.reload();
 	}
