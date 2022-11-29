@@ -48,9 +48,9 @@ function OnUpdate(){
 }
 
 
-let button = document.getElementById('task4_button');
+let button2 = document.getElementById('task4_button');
 
-button.addEventListener('click', Task4);
+button2.addEventListener('click', Task4);
 
 function Task4(){
 	let color = document.forms["form4"]["color"];
