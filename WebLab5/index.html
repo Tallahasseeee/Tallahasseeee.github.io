@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="flex.css">
+	<title>Radon Shop</title>
+</head>
+<body>
+	<header class="header">
+        <h3 id="welcome"><a href="#" id="welcome_link">Вітаємо в Radon Shop!</a></h3>
+        <a href="#">Flex</a>
+        <a href="#">Grid</a>
+        <a href="#">Table</a>
+        <div class="navbar">
+        <a >Головна</a>
+        <a >Каталог</a>
+        <a >Про нас</a>
+        <a >Оплата та доставка</a>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="recomendations">
+            <h3>Рекомендації для Вас</h3>
+            <img src="images/photo1.jpg">
+            <img src="images/photo2.jpg">
+            <img src="images/photo3.jpg">
+            <img src="images/photo4.jpg">
+        </div>
+        <div class="right-part">
+            <div class="slogans">
+                <h2>Хто хоче жити, той зобов'язаний боротися, а хто не захоче чинити опір у цьому світі вічної боротьби, той не заслуговує права на життя</h2>
+            </div>
+            <div class="right-lower-part">
+                <div class="central-part">
+                    <div class="main-part">
+                        <p>Ми дуже раді, що Ви обрали саме наш магазин. Бо у нас: найкращі товари, найрозумніші ціни, найцікавіші пропозиції, найвигідніші знижки та найзручніший сервіс. Для Вас старанно працюють наші менеджери, які завжди готові відповісти на всі Ваші питання і проконсультувати.</p>
+                        <div id="phototext">
+                        <img src="images/manager.jpg" width="80%">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <form id="task3" action="index.js" method="dialog">
+                        <label for="number">Введіть число:</label>
+                        <input type="text" name="number">
+                        <button id="task3_button">Перевернути число</button>
+                    </form>
+                    <form id="task4" action="index.js" method="dialog">
+                        <label for="color">Введіть колір англійською:</label>
+                        <input type="text" name="color">
+                        <button id="task4_button">Встановити колір</button>
+                    </form>
+                    <div id="task5_container">
+                    <form id="task5" action="index.js" method="dialog">
+                        <label for="block">Оберіть блок для встановлення стилів</label>
+                        <select form="task5" name="block">
+                            <option value = "header">Блок 1</option>
+                            <option value = "recomendations">Блок 2</option>
+                            <option value = "slogans">Блок 3</option>
+                            <option value = "main-part">Блок 4</option>
+                            <option value = "news">Блок 5</option>
+                            <option value = "last-product">Блок 6</option>
+                            <option value = "footer">Блок 7</option>
+                        </select>
+                        <label for="style">Введіть css інструкції для обраного блоку:</label>
+                        <input type="text" name="style">
+                        <button id="task5_button">Встановити стилі</button>
+                    </form>
+                    </div>
+                    <button id="task5_button2">Скинути стилі</button>
+                    <div class="last-product">
+                        <h4>Останнє переглянуте:</h4>
+                        <p>М'ясорубка SteinBerg</p>
+                    </div>
+                </div>
+                <div class="news">
+                    <h3>Новини магазину</h3>
+                    <ul>
+                        <li>Тепер Ви можете придбати наші товари з-за кордону</li>
+                        <li>Вигідні пропозиції до Хелоуіна</li>
+                        <li>Нові акції та знижки</li>
+                        <li>Ми нарешті відкрили свій склад</li>
+                        <li>Поновлення асортименту</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="contacts">
+            <h4>Контакти</h4>
+            <ul>
+                <li>+38 (067) 939 14 88</li>
+                <li>+38 (098) 911 14 88</li>
+                <li>+38 (067) 000 14 88</li>
+            </ul>
+        </div>
+        <h3 id="main-slogan">Наша головна ціль - аби покупці були задоволені❤️</h3>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
